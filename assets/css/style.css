@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  
+  width: 100%;
+  background-color: lightblue;
+}
+h2 {
+  text-align: left;
+  margin-block-start: auto;
+  
+}
+ul {
+  
+  text-align: right;
+  color: #131111;
+}
+
+body {
+  background-color: #939da2;
+}
+
+.content{
+  width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+.float-center{
+  float:center;
+  margin:50px;
+  width:fit-content
+}
+.float-left {
+  float: left;
+  margin-right: 25px;
+  width:fit-content;
+}
+/* List items in navigation bar */
+li {
+  /* Sets display to inline */
+  padding-inline-start: 0%;
+  display: inline;
+  list-style-type:none;
+  font-size: 20px;
+}
+.project-cont{
+  position: relative;
+  padding-top: 10px;
+}
+.text-block {
+  position: absolute;
+  bottom: 55px;
+  left: 30px;
+  background-color: rgba(35, 33, 33, 0.726);
+  color: rgb(238, 240, 245);
+ font-size: 30px;
+}
